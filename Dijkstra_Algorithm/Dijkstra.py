@@ -1,5 +1,6 @@
 # Dijkstra's Algorithm finds the shortest path in terms of total edge weights in a weighted graph with non-negative edge weights.
 # It uses a priority queue (min-heap) to prioritize nodes with the smallest known distance.
+
 graph = {
     'Arad': {'Zerind': 75, 'Sibiu': 140, 'Timisoara': 118},
     'Zerind': {'Oradea': 71, 'Arad': 75},
